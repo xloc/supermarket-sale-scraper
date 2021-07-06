@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run scrape.py",
+      "type": "shell",
+      "command": "PATH=$PATH:./geckodriver:./chromedriver; /usr/local/bin/python3 scrape.py",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
